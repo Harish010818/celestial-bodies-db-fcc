@@ -656,3 +656,7 @@ trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 git init
 git add .
+git commit -m "Initial commit of PostgreSQL project"
+git remote add origin https://github.com/Harish010818/celestial-bodies-db-fcc.git
+git init
+git add .
